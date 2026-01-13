@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<header role="banner">
-		Ganga
-	</header>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vMagLj_f8nxmq0Yt3sq8FLcDE7AQ6WdauA&s" alt="picture" role="presentation">
-	<ul role="list">
-		<li>Apples</li>
-        <li>Bananas</li>
-        <li>Cherries</li>
+
+    <!-- Heading -->
+    <h1 role="heading">My Portfolio</h1>
+
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+    </nav>
+
+    <!-- Image -->
+    <img src="profile.png" alt="Profile picture of the portfolio owner" role="img">
+
+    <!-- Brief Description -->
+    <p id="about">
+        I am a web developer passionate about building accessible and user-friendly websites.
+    </p>
+
+    <!-- List -->
+    <ul role="list" id="skills">
+        <li role="listitem">HTML</li>
+        <li role="listitem">CSS</li>
+        <li role="listitem">JavaScript</li>
     </ul>
-	<nav role="navigation">
-		<a href="#"> India </a>
-	</nav>
-	
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
 </body>
-
 </html>
